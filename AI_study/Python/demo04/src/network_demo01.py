@@ -1,10 +1,13 @@
 import numpy as np
 
+
 def sigmoid(x):
-    return 1.0/(1 + np.exp(-x))
+    return 1.0 / (1 + np.exp(-x))
+
 
 def identity_function(x):
     return x
+
 
 def init_network():
     network = {}
@@ -15,6 +18,7 @@ def init_network():
     network['W3'] = np.array([[0.1, 0.3], [0.2, 0.4]])
     network['b3'] = np.array([0.1, 0.2])
     return network
+
 
 def forward(network, x):
     W1, W2, W3 = network['W1'], network['W2'], network['W3']
@@ -27,7 +31,8 @@ def forward(network, x):
     y = identity_function(a3)
     return y
 
+
 network = init_network()
 x = np.array([1.0, 0.5])
 y = forward(network, x)
-print(y) # [ 0.31682708 0.69627909]
+print(y)  # [ 0.31682708 0.69627909]
