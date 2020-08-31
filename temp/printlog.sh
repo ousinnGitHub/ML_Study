@@ -4,14 +4,14 @@
 # Copyright 2014 Intel Corporation, All Rights Reserved.
 function log_info ()
 {
-if [  -d /var/log  ]
+if [  -d /home/wang/work/log  ]
 then
-    mkdir -p /var/log 
+    mkdir -p /home/wang/work/log 
 fi
 
 DATE_N=`date "+%Y-%m-%d %H:%M:%S"`
 USER_N=`whoami`
-echo "${DATE_N} ${USER_N} execute $0 [INFO] $@" >>/var/log/openstack-kilo #执行成功日志打印路径
+echo "${DATE_N} ${USER_N} execute $0 [INFO] $@" >>/home/wang/work/log/fun.log #执行成功日志打印路径
 
 }
 
@@ -19,7 +19,7 @@ function log_error ()
 {
 DATE_N=`date "+%Y-%m-%d %H:%M:%S"`
 USER_N=`whoami`
-echo -e "error ${DATE_N} ${USER_N} execute $0 [ERROR] $@ "  >>/var/log/openstack-kilo #执行失败日志打印路径
+echo -e "error ${DATE_N} ${USER_N} execute $0 [ERROR] $@ "  >>/home/wang/work/log/fun.log #执行失败日志打印路径
 
 }
 

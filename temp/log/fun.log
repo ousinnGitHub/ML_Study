@@ -1,0 +1,4 @@
+2020-09-01 00:54:34 postgres execute ./shellStart.sh [INFO] 
+2020-09-01 00:58:33.483913	executeselect count(*) from people
+2020-09-01 00:58:33.485326	execute over return count:
+error 2020-09-01 01:01:37 postgres execute ./shellStop.sh [ERROR]  
