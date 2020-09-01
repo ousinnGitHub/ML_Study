@@ -1,0 +1,6 @@
+sudo -u postgres psql
+
+
+/etc/postgresql/12/main/postgresql.conf
+
+

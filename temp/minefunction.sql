@@ -12,7 +12,7 @@ mysql:='select count(*) from people';
 
 insert into log(msg) values ('execute：' || mysql);
 execute mysql into counts;
-insert into log(msg) values ('execute over return count:' );
+insert into log(msg) values ('execute over return count: ' || counts);
 
 COPY log TO PROGRAM 'more >> /home/wang/work/log/fun.log';
 return counts;

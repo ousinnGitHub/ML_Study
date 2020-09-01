@@ -1,0 +1,6 @@
+2020-09-01 23:42:31 postgres execute ./shellStart.sh [INFO] 
+2020-09-01 23:42:31.351905+09	execute：mysql
+2020-09-01 23:42:31.351905+09	execute over return count: 
+error 2020-09-01 23:42:31 postgres execute ./shellStart.sh [ERROR]  
+2020-09-02 00:10:08 postgres execute ./shellStart.sh [INFO] 
+error 2020-09-02 00:10:08 postgres execute ./shellStart.sh [ERROR]  

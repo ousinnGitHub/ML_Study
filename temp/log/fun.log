@@ -2,3 +2,10 @@
 2020-09-01 00:58:33.483913	executeselect count(*) from people
 2020-09-01 00:58:33.485326	execute over return count:
 error 2020-09-01 01:01:37 postgres execute ./shellStop.sh [ERROR]  
+2020-09-01 08:01:58.545082+09	execute：mysql
+2020-09-01 08:01:58.545082+09	execute over return count: 
+2020-09-01 23:36:35 postgres execute ./shellStart.sh [INFO] 
+2020-09-01 23:36:35.428941+09	execute：mysql
+2020-09-01 23:36:35.428941+09	execute over return count: 
+2020-09-01 23:40:17 postgres execute ./shellStart.sh [INFO] 
+error 2020-09-01 23:40:17 postgres execute ./shellStart.sh [ERROR]  
